@@ -49,6 +49,11 @@ import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+import cryptobase from './projects/cryptobase.png';
+import cardgame from './projects/cardgame.png';
+import weather from './projects/weather.png';
+import realtor from './projects/realtor.png';
+import money from './projects/money.png';
 
 export {
   bwmap,
@@ -96,4 +101,9 @@ export {
   dcc,
   kelhel,
   microverse,
+  cryptobase,
+  cardgame,
+  weather,
+  realtor,
+  money,
 };

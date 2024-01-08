@@ -27,6 +27,11 @@ import {
   dcc,
   kelhel,
   microverse,
+  cryptobase,
+  cardgame,
+  weather,
+  realtor,
+  money,
 } from '../assets';
 
 export const navLinks = [
@@ -85,28 +90,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
     name: 'Tailwind CSS',
     icon: tailwind,
   },
   {
     name: 'Node JS',
     icon: nodejs,
-  },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
   },
   {
     name: 'git',
@@ -116,37 +105,33 @@ const technologies = [
     name: 'figma',
     icon: figma,
   },
-  {
-    name: 'docker',
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
     title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    company_name: 'Droov',
     icon: coverhunt,
     iconBg: '#333333',
     date: 'Aug 2021 - Feb 2022',
   },
   {
     title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    company_name: 'Droov',
     icon: microverse,
     iconBg: '#333333',
     date: 'Mar 2022 - May 2022',
   },
   {
     title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    company_name: 'Droov',
     icon: kelhel,
     iconBg: '#333333',
     date: 'May 2022 - Oct 2022',
   },
   {
     title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    company_name: 'Droov',
     icon: dcc,
     iconBg: '#333333',
     date: 'Sep 2022 - Present',
@@ -156,8 +141,8 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Cryptobase',
+    description: 'Here are different cryptocurrencies that you can save to your account and track, and you will also be provided with their full description.',
     tags: [
       {
         name: 'react',
@@ -172,15 +157,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    image: cryptobase,
+    repo: 'https://github.com/Gordell/Crypto-web',
+    demo: 'https://cryptobase-bc044.web.app',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Card Game',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'Memory game.',
     tags: [
       {
         name: 'react',
@@ -195,14 +180,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    image: cardgame,
+    repo: 'https://github.com/Gordell/Card-Game.git',
+    demo: 'https://card-game-2a25f.web.app',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Weather web',
+    description: 'The weather application shows the weather in your region. API used.',
     tags: [
       {
         name: 'nextjs',
@@ -217,14 +202,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    image: weather,
+    repo: 'https://github.com/Gordell/Weather.git',
+    demo: 'https://weather-ef7f2.web.app/',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Finance Tracking',
+    description: `This is a site where you can record your purchases in notes.`,
     tags: [
       {
         name: 'nextjs',
@@ -239,15 +224,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    image: money,
+    repo: 'https://github.com/Gordell/Finance-Tracking',
+    demo: 'my-money-ca653.firebaseapp.com',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Realtor web',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'Realtor page where you can create an ad and put your house up for sale or rent.',
     tags: [
       {
         name: 'nextjs',
@@ -262,9 +247,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    image: realtor,
+    repo: 'https://github.com/Gordell/realtor-clone-react.git',
+    demo: 'https://realtor-clone-react-810c1.web.app/',
   },
 ];
 
